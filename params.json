@@ -1,4 +1,4 @@
-var x = {
+{
 	"genesisGasLimit": { "v": 1000000, "d": "Gas limit of the Genesis block." },
 	"minGasLimit": { "v": 125000, "d": "Minimum the gas limit may ever be." },
 	"gasLimitBoundDivisor": { "v": 1024, "d": "The bound divisor of the gas limit, used in update calculations." },
@@ -37,8 +37,7 @@ var x = {
 
 	"suicideRefundGas": { "v": 24000, "d": "Refunded following a suicide operation." },
 
-	"memoryGas": { "v": 3, "d": "Times the address of the (highest referenced byte in memory + 1). NOTE: referencing happens on read, write and in instructions such as RETURN and CALL." },
-	"quadCoeffDiv": { "v": 512, "d": "Divisor for the quadratic particle of the memory cost equation." },
+	"memoryGas": { "v": 3, "d": "Times the address of the (highest referenced byte in memory + 1). NOTE: referencing happens on read, write and in instructions such as RETURN and CALL." },	"quadCoeffDiv": { "v": 512, "d": "Divisor for the quadratic particle of the memory cost equation." },
 
 	"createDataGas": { "v": 200, "d": "" },
 	"txGas": { "v": 21000, "d": "Per transaction. NOTE: Not payable on data of calls between transactions." },
@@ -55,11 +54,4 @@ var x = {
 	"identityGas": { "v": 15, "d": "" },
 	"identityWordGas": { "v": 3, "d": ""}
 }
-
-/*
-// to get C++ .h:
-for (i in x) console.log("/// " + x[i].d + "\nextern u256 const c_" + i + (x[i].v * 0 !== 0 ? "[" + (x[i].v.length + 1) + "]" : "") + ";")
-// to get C++ .cpp:
-for (i in x) console.log("u256 const c_" + i + (x[i].v * 0 === 0 ? " = " + x[i].v : "[] = {" + x[i].v.join(", ") + ", 0}") + ";")
-*/
 
