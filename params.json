@@ -1,5 +1,5 @@
 {
-	"genesisGasLimit": { "v": 1000000, "d": "Gas limit of the Genesis block." },
+	"genesisGasLimit": { "v": 3141592, "d": "Gas limit of the Genesis block." },
 	"minGasLimit": { "v": 125000, "d": "Minimum the gas limit may ever be." },
 	"gasLimitBoundDivisor": { "v": 1024, "d": "The bound divisor of the gas limit, used in update calculations." },
 	"genesisDifficulty": { "v": 131072, "d": "Difficulty of the Genesis block." },
