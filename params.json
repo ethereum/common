@@ -9,6 +9,7 @@
 	"maximumExtraDataSize": { "v": 1024, "d": "Maximum size extra data may be after Genesis." },
 	"epochDuration": { "v": 30000, "d": "Duration between proof-of-work epochs." },
 	"stackLimit": { "v": 1024, "d": "Maximum size of VM stack allowed." },
+	"callCreateDepth": { "v": 1024, "d": "Maximum depth of call/create stack." },
 
 	"tierStepGas": { "v": [ 0, 2, 3, 5, 8, 10, 20 ], "d": "Once per operation, for a selection of them." },
 	"expGas": { "v": 10, "d": "Once per EXP instuction." },
