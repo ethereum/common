@@ -19,7 +19,7 @@
 	"sha3WordGas": { "v": 6, "d": "Once per word of the SHA3 operation's data." },
 	"sloadGas": { "v": 50, "d": "Once per SLOAD operation." },
 	"sstoreSetGas": { "v": 20000, "d": "Once per SSTORE operation if the zeroness changes from zero." },
-	"sstoreResetGas": { "v": 5000, "d": "Once per SSTORE operation if the zeroness doesn't change." },
+	"sstoreResetGas": { "v": 5000, "d": "Once per SSTORE operation if the zeroness does not change from zero." },
 	"sstoreRefundGas": { "v": 15000, "d": "Once per SSTORE operation if the zeroness changes to zero." },
 	"jumpdestGas": { "v": 1, "d": "Refunded gas, once per SSTORE operation if the zeroness changes to zero." },
 
