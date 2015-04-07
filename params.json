@@ -17,11 +17,9 @@
 
 	"sha3Gas": { "v": 30, "d": "Once per SHA3 operation." },
 	"sha3WordGas": { "v": 6, "d": "Once per word of the SHA3 operation's data." },
-
-	"sloadGas": { "v": 50, "d": "Multiplied by the number of 32-byte words that are copied (round up) for any *COPY operation and added." },
-	"sstoreSetGas": { "v": 20000, "d": "Once per SLOAD operation." },
-	"sstoreResetGas": { "v": 5000, "d": "Once per SSTORE operation if the zeroness changes from zero." },
-	"sstoreClearGas": { "v": 5000, "d": "Once per SSTORE operation if the zeroness doesn't change." },
+	"sloadGas": { "v": 50, "d": "Once per SLOAD operation." },
+	"sstoreSetGas": { "v": 20000, "d": "Once per SSTORE operation if the zeroness changes from zero." },
+	"sstoreResetGas": { "v": 5000, "d": "Once per SSTORE operation if the zeroness does not change from zero." },
 	"sstoreRefundGas": { "v": 15000, "d": "Once per SSTORE operation if the zeroness changes to zero." },
 	"jumpdestGas": { "v": 1, "d": "Refunded gas, once per SSTORE operation if the zeroness changes to zero." },
 
@@ -45,7 +43,7 @@
 	"txDataZeroGas": { "v": 4, "d": "Per byte of data attached to a transaction that equals zero. NOTE: Not payable on data of calls between transactions." },
 	"txDataNonZeroGas": { "v": 68, "d": "Per byte of data attached to a transaction that is not equal to zero. NOTE: Not payable on data of calls between transactions." },
 
-	"copyGas": { "v": 3, "d": "" },
+	"copyGas": { "v": 3, "d": "Multiplied by the number of 32-byte words that are copied (round up) for any *COPY operation and added." },
 	
 	"ecrecoverGas": { "v": 3000, "d": "" },
 	"sha256Gas": { "v": 60, "d": "" },
