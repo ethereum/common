@@ -176,5 +176,19 @@
   "identityWordGas": {
     "v": 3,
     "d": ""
+  },
+  "minerReward":{
+    "v": "1500000000000000000",
+    "d": "the amount a miner get rewarded for mining a block"
+  
+  },
+  "uncleReward":{
+    "v": "1406250000000000000",
+    "d": "The amount of wei a miner of an uncle block gets for being inculded in the blockchain"
+  
+  },
+  "nephewReward":{
+    "v": "46875000000000000",
+    "d": "the amount a miner gets for inculding a uncle" 
   }
 }
