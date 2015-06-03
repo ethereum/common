@@ -36,7 +36,8 @@
 
 	"suicideRefundGas": { "v": 24000, "d": "Refunded following a suicide operation." },
 
-	"memoryGas": { "v": 3, "d": "Times the address of the (highest referenced byte in memory + 1). NOTE: referencing happens on read, write and in instructions such as RETURN and CALL." },	"quadCoeffDiv": { "v": 512, "d": "Divisor for the quadratic particle of the memory cost equation." },
+	"memoryGas": { "v": 3, "d": "Times the address of the (highest referenced byte in memory + 1). NOTE: referencing happens on read, write and in instructions such as RETURN and CALL." },	
+	"quadCoeffDiv": { "v": 512, "d": "Divisor for the quadratic particle of the memory cost equation." },
 
 	"createDataGas": { "v": 200, "d": "" },
 	"txGas": { "v": 21000, "d": "Per transaction. NOTE: Not payable on data of calls between transactions." },
