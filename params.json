@@ -5,7 +5,7 @@
 	"genesisDifficulty": { "v": 131072, "d": "Difficulty of the Genesis block." },
 	"minimumDifficulty": { "v": 131072, "d": "The minimum that the difficulty may ever be." },
 	"difficultyBoundDivisor": { "v": 2048, "d": "The bound divisor of the difficulty, used in the update calculations." },
-	"durationLimit": { "v": 8, "d": "The decision boundary on the blocktime duration used to determine whether difficulty should go up or not." },
+	"durationLimit": { "v": 13, "d": "The decision boundary on the blocktime duration used to determine whether difficulty should go up or not." },
 	"maximumExtraDataSize": { "v": 1024, "d": "Maximum size extra data may be after Genesis." },
 	"epochDuration": { "v": 30000, "d": "Duration between proof-of-work epochs." },
 	"stackLimit": { "v": 1024, "d": "Maximum size of VM stack allowed." },
