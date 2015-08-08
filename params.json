@@ -1,10 +1,10 @@
 {
   "genesisGasLimit": {
-    "v": 3141592,
+    "v": 5000,
     "d": "Gas limit of the Genesis block."
   },
   "minGasLimit": {
-    "v": 125000,
+    "v": 5000,
     "d": "Minimum the gas limit may ever be."
   },
   "gasLimitBoundDivisor": {
@@ -24,11 +24,11 @@
     "d": "The bound divisor of the difficulty, used in the update calculations."
   },
   "durationLimit": {
-    "v": 8,
+    "v": 13,
     "d": "The decision boundary on the blocktime duration used to determine whether difficulty should go up or not."
   },
   "maximumExtraDataSize": {
-    "v": 1024,
+    "v": 32,
     "d": "Maximum size extra data may be after Genesis."
   },
   "epochDuration": {
@@ -42,19 +42,6 @@
   "callCreateDepth": {
     "v": 1024,
     "d": "Maximum depth of call/create stack."
-  },
-
-  "tierStepGas": {
-    "v": [0, 2, 3, 5, 8, 10, 20],
-    "d": "Once per operation, for a selection of them."
-  },
-  "expGas": {
-    "v": 10,
-    "d": "Once per EXP instuction."
-  },
-  "expByteGas": {
-    "v": 10,
-    "d": "Times ceil(log256(exponent)) for the EXP instruction."
   },
   "sha3Gas": {
     "v": 30,
@@ -116,7 +103,6 @@
     "v": 25000,
     "d": "Paid for CALL when the destination address didn't exist prior."
   },
-
   "suicideRefundGas": {
     "v": 24000,
     "d": "Refunded following a suicide operation."
@@ -177,18 +163,16 @@
     "v": 3,
     "d": ""
   },
-  "minerReward":{
+  "minerReward": {
     "v": "1500000000000000000",
     "d": "the amount a miner get rewarded for mining a block"
-  
   },
-  "uncleReward":{
+  "uncleReward": {
     "v": "1406250000000000000",
     "d": "The amount of wei a miner of an uncle block gets for being inculded in the blockchain"
-  
   },
-  "nephewReward":{
+  "nephewReward": {
     "v": "46875000000000000",
-    "d": "the amount a miner gets for inculding a uncle" 
+    "d": "the amount a miner gets for inculding a uncle"
   }
 }
