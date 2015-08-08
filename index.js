@@ -1,4 +1,1 @@
-module.exports = {
-  allotments: require('./genesis.json'),
-  fees: require('./params.json')
-};
+module.exports = require('./params.json')
