@@ -19,15 +19,10 @@
     "url": "https://github.com/ethereum/common/issues"
   },
   "homepage": "https://github.com/ethereum/common",
-  "dist": {
-    "shasum": "9d85fbf7bc21d3803a587eb2688f1752fa72db66",
-    "tarball": "http://registry.npmjs.org/ethereum-common/-/ethereum-common-0.0.5.tgz"
-  },
   "maintainers": [
     {
       "name": "null_radix",
       "email": "mjbecze@gmail.com"
     }
-  ],
-  "directories": {},
+  ]
 }
