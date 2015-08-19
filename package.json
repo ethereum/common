@@ -1,0 +1,44 @@
+{
+  "name": "ethereum-common",
+  "version": "0.0.6",
+  "description": "Resources common to all Ethereum implementations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethereum/common.git"
+  },
+  "keywords": [
+    "ethereum"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ethereum/common/issues"
+  },
+  "homepage": "https://github.com/ethereum/common",
+  "gitHead": "2d690ec70c33b4df204b99dbd1e93a69d4889700",
+  "_id": "ethereum-common@0.0.5",
+  "_shasum": "9d85fbf7bc21d3803a587eb2688f1752fa72db66",
+  "_from": "ethereum-common@0.0.5",
+  "_npmVersion": "2.13.2",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "null_radix",
+    "email": "mjbecze@gmail.com"
+  },
+  "dist": {
+    "shasum": "9d85fbf7bc21d3803a587eb2688f1752fa72db66",
+    "tarball": "http://registry.npmjs.org/ethereum-common/-/ethereum-common-0.0.5.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "null_radix",
+      "email": "mjbecze@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/ethereum-common/-/ethereum-common-0.0.5.tgz"
+}
