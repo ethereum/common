@@ -1,5 +1,4 @@
 var params = module.exports = require('./params.json')
-params.genesisBlock = require('./genesisBlock.json')
 
 //load it dynamical because it's slow
 Object.defineProperties(params, {
