@@ -1,8 +1,4 @@
-var params = module.exports = require('./params.json')
+var params = require('./params.json')
+params.genesisState = require('./genesisState.json')
 
-//load it dynamical because it's slow
-Object.defineProperties(params, {
-  genesisState: {
-    get: require.bind(this, './genesisState.json')
-  }
-})
+module.exports = params
