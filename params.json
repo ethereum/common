@@ -159,6 +159,10 @@
     "v": 21000,
     "d": "Per transaction. NOTE: Not payable on data of calls between transactions."
   },
+  "txCreation": {
+    "v": 32000,
+    "d": "the cost of creating a contract via tx"
+  },
   "txDataZeroGas": {
     "v": 4,
     "d": "Per byte of data attached to a transaction that equals zero. NOTE: Not payable on data of calls between transactions."
