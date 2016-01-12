@@ -218,7 +218,7 @@
     "d": "the amount a miner gets for inculding a uncle"
   },
   "homeSteadForkNumber": {
-    "v": 720000,
+    "v": 900000,
     "d": "the block that the homestead fork started at"
   },
   "timebombPeriod": {
