@@ -12,7 +12,7 @@
 	"callCreateDepth": { "v": 1024, "d": "Maximum depth of call/create stack." },
 
 	"tierStepGas": { "v": [ 0, 2, 3, 5, 8, 10, 20 ], "d": "Once per operation, for a selection of them." },
-	"expGas": { "v": 10, "d": "Once per EXP instuction." },
+	"expGas": { "v": 10, "d": "Once per EXP instruction." },
 	"expByteGas": { "v": 10, "d": "Times ceil(log256(exponent)) for the EXP instruction." },
 
 	"sha3Gas": { "v": 30, "d": "Once per SHA3 operation." },
@@ -36,7 +36,7 @@
 
 	"suicideRefundGas": { "v": 24000, "d": "Refunded following a suicide operation." },
 
-	"memoryGas": { "v": 3, "d": "Times the address of the (highest referenced byte in memory + 1). NOTE: referencing happens on read, write and in instructions such as RETURN and CALL." },	
+	"memoryGas": { "v": 3, "d": "Times the address of the (highest referenced byte in memory + 1). NOTE: referencing happens on read, write and in instructions such as RETURN and CALL." },
 	"quadCoeffDiv": { "v": 512, "d": "Divisor for the quadratic particle of the memory cost equation." },
 
 	"createDataGas": { "v": 200, "d": "" },
