@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethereum/common.git"
+    "url": "git+https://github.com/ethereumjs/common.git"
   },
   "keywords": [
     "ethereum"
@@ -16,9 +16,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ethereum/common/issues"
+    "url": "https://github.com/ethereumjs/common/issues"
   },
-  "homepage": "https://github.com/ethereum/common",
+  "homepage": "https://github.com/ethereumjs/common",
   "maintainers": [
     {
       "name": "null_radix",
