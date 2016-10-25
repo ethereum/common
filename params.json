@@ -221,6 +221,10 @@
     "v": 1150000,
     "d": "the block that the Homestead fork started at"
   },
+  "homesteadRepriceForkNumber": {
+    "v": 2463000,
+    "d": "the block that the Homestead Reprice (EIP150) fork started at"
+  },
   "timebombPeriod": {
     "v": 100000,
     "d": "Exponential difficulty timebomb period"
