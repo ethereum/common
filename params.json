@@ -69,7 +69,7 @@
     "d": "Once per EXP instuction."
   },
   "expByteGas": {
-    "v": 10,
+    "v": 50,
     "d": "Times ceil(log256(exponent)) for the EXP instruction."
   },
 
