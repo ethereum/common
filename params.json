@@ -205,6 +205,10 @@
     "v": 3,
     "d": ""
   },
+  "modexpGquaddivisor": {
+    "v": 20,
+    "d": "Gquaddivisor from modexp precompile for gas calculation."
+  },
   "ecAddGas": {
     "v": 500,
     "d": "Gas costs for curve addition precompile."
