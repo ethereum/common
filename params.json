@@ -205,6 +205,22 @@
     "v": 3,
     "d": ""
   },
+  "ecAddGas": {
+    "v": 500,
+    "d": "Gas costs for curve addition precompile."
+  },
+  "ecMulGas": {
+    "v": 40000,
+    "d": "Gas costs for curve multiplication precompile."
+  },
+  "ecPairingGas": {
+    "v": 100000,
+    "d": "Base gas costs for curve pairing precompile."
+  },
+  "ecPairingWordGas": {
+    "v": 80000,
+    "d": "Gas costs regarding curve pairing precompile input length."
+  },
   "minerReward": {
     "v": "3000000000000000000",
     "d": "the amount a miner get rewarded for mining a block"
