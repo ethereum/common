@@ -205,17 +205,29 @@
     "v": 3,
     "d": ""
   },
+  "modexpGquaddivisor": {
+    "v": 20,
+    "d": "Gquaddivisor from modexp precompile for gas calculation."
+  },
+  "ecAddGas": {
+    "v": 500,
+    "d": "Gas costs for curve addition precompile."
+  },
+  "ecMulGas": {
+    "v": 40000,
+    "d": "Gas costs for curve multiplication precompile."
+  },
+  "ecPairingGas": {
+    "v": 100000,
+    "d": "Base gas costs for curve pairing precompile."
+  },
+  "ecPairingWordGas": {
+    "v": 80000,
+    "d": "Gas costs regarding curve pairing precompile input length."
+  },
   "minerReward": {
-    "v": "5000000000000000000",
+    "v": "3000000000000000000",
     "d": "the amount a miner get rewarded for mining a block"
-  },
-  "ommerReward": {
-    "v": "625000000000000000",
-    "d": "The amount of wei a miner of an uncle block gets for being inculded in the blockchain"
-  },
-  "niblingReward": {
-    "v": "156250000000000000",
-    "d": "the amount a miner gets for inculding a uncle"
   },
   "homeSteadForkNumber": {
     "v": 1150000,
