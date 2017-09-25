@@ -6,9 +6,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
-## [0.2.0] - Unreleased
+## [0.2.0] - Unreleased (``master`` branch)
 - ``Metro-Byzantium`` compatible
 - Block reward reduction
+- Added gas costs for curve operation precompiles (``ecAddGas``, ``ecMulGas``,...)
+- Added ``modexpGquaddivisor`` (modexp precompile)
 
 [0.2.0]: https://github.com/ethereumjs/common/compare/v0.1.0...v0.2.0
 
