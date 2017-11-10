@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+## [0.2.1] - 2017-11-08
+- Updated bootstrap nodes list (``bootstrapNodes.json``)
+- More detailed bootstrap node context info like ``network`` or ``location``
+
+[0.2.1]: https://github.com/ethereumjs/common/compare/v0.2.0...v0.2.1
+
 ## [0.2.0] - 2017-10-11
 - ``Metro-Byzantium`` compatible
 - Block reward reduction
